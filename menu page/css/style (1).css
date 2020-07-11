@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,700&display=swap");
+
+@import url(font-awesome.min.css);
+@import url(baguetteBox.min.css);
+
+body {
+  background-color: #2f2f33;
+  
+}
+a,
+.btn {
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-custom {
+  margin-top: 20px;
+  background-color: transparent !important;
+  border: 2px solid #ddd;
+  padding: 12px 40px;
+  font-size: 16px;
+}
+
+.lead {
+  font-size: 18px;
+  line-height: 30px;
+  color: #767676;
+  margin: 0;
+  padding: 0;
+}
+ul,
+li,
+ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+button:focus {
+  outline: none;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: center;
+  padding: 8px 1%;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.boi {
+  color: white;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.logo {
+  height: 50px;
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: rgb(227, 227, 233);
+}
+
+.menu {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  color: #2f2f33;
+  font-size: 20px;
+  padding: 7px 14px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+
+button:hover {
+  color: #ccc1c1;
+  background-color: #64646b;
+}
+
+.all-page-title .page-breadcrumb {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.menu-box {
+  padding: 70px 0px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.heading-title {
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.heading-title h2 {
+  color: white;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.heading-title p {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 200;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.inner-menu-box .nav-pills .nav-link.active {
+  background: #55555a56;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.inner-menu-box .nav-pills .nav-link {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.inner-menu-box .nav-pills .nav-link:hover {
+  background: #55555a48;
+  color: #ffffff;
+}
+
+.gallery-single {
+  margin-bottom: 30px;
+}
+
+.gallery-single {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px #312f33;
+  box-shadow: 0 0 10px #312f33;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.why-text {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  right: 0;
+  height: 100%;
+  background: #55555a7c;
+  padding: 12px 12px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.why-text h4 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.why-text p {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 0px;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.why-text h5 {
+  font-size: 18px;
+
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.gallery-single:hover .why-text {
+  bottom: 0px;
+}
+
+.erer {
+  margin-top: 0px;
+  color: white;
+}
+
+.copyright {
+  margin-top: 20px;
+  position: relative;
+  display: block;
+  background-color: none;
+  padding: 1px 0;
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.copyright .company-name {
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+.copyright .company-name a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: #6699ee;
+}
+
+.page-breadcrumb {
+  padding: 405px 0 150px;
+  background: url(../images/realburgass.png) no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: 0 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.all-page-title .container {
+  position: relative;
+  z-index: 2;
+}
+.all-page-title::before {
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+/*custom scrollbar*/
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  border: 4px transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 0px;
+}
