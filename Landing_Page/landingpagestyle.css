@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #2f2f33;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: center;
+  padding: 8px 1%;
+  overflow: hidden;
+}
+
+.boi {
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.logo {
+  height: 50px;
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: rgb(227, 227, 233);
+}
+
+.menu {
+  font-size: 30px;
+}
+
+button {
+  color: #2f2f33;
+  font-size: 20px;
+  padding: 7px 14px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #64646b;
+}
+
+body {
+  background: #2f2f33;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 1px;
+  
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  background: #000000;
+}
+
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
+.swiper-button-next {
+  background: transparent;
+  color: white;
+}
+.swiper-button-prev {
+  background: transparent;
+  color: white;
+}
+
+.peer {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 50%;
+  height: auto;
+}
+
+.pee {
+  text-align: center;
+  margin-top: 70px;
+  color: white;
+  margin-left: 50px;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  align-items: center;
+}
+
+.pop {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+button {
+  color: #2f2f33;
+  font-size: 20px;
+  padding: 7px 14px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  text-align: center;
+}
+
+.bruh {
+  color: #f5fff0;
+  font-size: 30px;
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+  border: 5px solid;
+  border-radius: 15px;
+}
+
+.trasher {
+  font-size: 30px;
+  color: #f5fff0;
+}
+
+.trasher:hover {
+  opacity: 80%;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #64646b;
+}
+
+.frontbottom {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+}
+.ios {
+  color: #ffffff;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.iosandriod {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  
+  margin-bottom: 70px;
+}
+
+.iosandriod:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+.copyright {
+  position: relative;
+  display: block;
+  background-color: #2f2f33;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.copyright .company-name {
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+.copyright .company-name a {
+  font-size: 16px;
+  color: #6699ee;
+}
+
+.erer {
+  margin-top: 0px;
+}
+
+/*custom scrollbar*/
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  border: 4px transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 0px;
+}
