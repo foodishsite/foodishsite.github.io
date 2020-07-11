@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #2f2f33;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 1%;
+}
+
+img {
+  height: 50px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+}
+
+.nav__links li a {
+  transition: all 0.2s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #ebebeb;
+}
+
+button {
+  color: #2f2f33;
+  padding: 7px 14px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #9c9c9c;
+  color: #ffffff;
+}
+
+.pimg1,
+.pimg2 {
+  position: relative;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("Socket.png");
+  min-height: 750px;
+  background-size: cover;
+  width 100%;
+}
+
+.pimg2 {
+  background-image: url("New\ Project\ \(32\).png");
+  min-height: 750px;
+  padding-bottom: 1000px;
+  background-size: cover;
+  width 100%;
+}
+
+.head {
+  font-size: 40px;
+  padding-top: 45px;
+  padding-bottom: 22px;
+}
+
+section {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.head2 {
+  font-size: 40px;
+  padding-top: 45px;
+  padding-bottom: 22px;
+}
+
+.copyright {
+  margin-top: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  position: relative;
+  display: block;
+  color: rgb(255, 255, 255);
+  background-color: #2f2f33;
+  padding: 0px 0;
+  z-index: 1;
+  padding-bottom: 10px;
+}
+
+.copyright .company-name {
+  font-size: 16px;
+  text-align: center;
+}
+.copyright .company-name a {
+  font-size: 18px;
+  color: #6699ee;
+}
+
+hr {
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+/*custom scrollbar*/
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  border: 4px transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2f2f33;
+  width: 100%;
+  height: 100%;
+  background: url("New\ Project\ \(13\)\ \(1\).png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 1%;
+  background-color: #2f2f33;
+  text-align: center;
+}
+
+img {
+  height: 50px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+}
+
+.nav__links li a {
+  transition: all 0.2s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #ebebeb;
+}
+
+button {
+  color: #2f2f33;
+  padding: 7px 14px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #9c9c9c;
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 60px;
+  padding-bottom: 28px;
+}
+
+p {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 0;
+}
+
+.copyright {
+  position: fixed;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 8%;
+  margin-top: 10%;
+  display: block;
+  background-color: #2f2f33;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 15px;
+  
+  
+}
+
+.copyright .company-name {
+  font-size: 16px;
+  text-align: center;
+  padding: 3px;
+}
+.copyright .company-name a {
+  font-size: 16px;
+  color: #6699ee;
+  padding: 3px;
+}
+
+/*custom scrollbar*/
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  border: 4px transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 0px;
+}
