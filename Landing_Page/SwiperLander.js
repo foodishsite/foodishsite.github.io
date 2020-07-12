@@ -1,18 +1,18 @@
 var swiper = new Swiper(".swiper-container", {
-  speed: 1200,
-  spacebetween: 30,
-  centeredSlides: true,
-  allowTouchMove: false,
+	speed: 1200,
+	spacebetween: 30,
+	centeredSlides: true,
+	allowTouchMove: false,
 
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  loop: true,
-  autoplay: {
-    delay: 3500,
-    disableOnInteraction: false,
-  },
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
+	loop: true,
+	autoplay: {
+		delay: 3500,
+		disableOnInteraction: false,
+	},
 });
 
 // We spent a lot of time on this so please let us win and give us the money
