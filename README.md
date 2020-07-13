@@ -3,3 +3,4 @@ Made for the event Web Warriors for the Competition Haywire 3.0 by Videep Ekbote
 The website is not responsive as we believe that there would be phones with large screens or holographic projections in 2100.
 
 Website name - http://foodishsite.github.io
+Repository name - https://github.com/foodishsite/foodishsite.github.io
